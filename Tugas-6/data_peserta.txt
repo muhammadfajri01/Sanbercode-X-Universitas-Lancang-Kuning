@@ -1,5 +1,5 @@
 Data Peserta Sanbercode Bootcamp Laravel Web Dev
 1. Nama: MuhammadFajri
 2. Email: sungaisail12@gmail.com
-3. Akun Gitlab: muhammadfajri01
+3. Akun Github: https://github.com/muhammadfajri01
 4. Akun Telegram: 089620630983 | @xfaddex | MuhammadFajri
