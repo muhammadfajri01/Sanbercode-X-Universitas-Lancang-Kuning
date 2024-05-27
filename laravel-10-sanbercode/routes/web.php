@@ -15,11 +15,23 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('dashboard');
+});
 
-Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/index', [HomeController::class, 'index'])->name('index');
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/send', [AuthController::class, 'send'])->name('send');
 Route::get('/welcome', [AuthController::class, 'welcome'])->name('welcome');
+
+// Route::get('/master', function () {
+//     return view('layout.master');
+// });
+
+Route::get('/table', function () {
+    return view('halaman.table');
+})->name('table');
+
+Route::get('/data-tables', function () {
+    return view('halaman.datatable');
+})->name('data-tables');
