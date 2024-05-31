@@ -63,6 +63,12 @@
                     <p>Data Table</p>
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a href="{{route('cast')}}" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Cast Table</p>
+                  </a>
+                </li>
               </ul>
             </li>
         </ul>
